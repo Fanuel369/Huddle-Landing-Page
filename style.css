@@ -17,6 +17,13 @@ body {
     display: flex;
 }
 
+.contenthead {
+    font-family: Poppins;
+}
+
+.contentxt {
+    font-family: Open-Sans;
+}
 button {
     font-family: Open-Sans;
     box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.38);
@@ -31,6 +38,7 @@ button:active {
 
 .content {
     margin-left: 6% !important;
+    transform: translate(2%, 0);
 }
 
 .logo {
@@ -53,12 +61,20 @@ button:active {
     border: 1px solid;
     border-radius: 50%;
     transition: color 0.3s;
+    transform: translate(0, -3%);
   }
 
   .socialicons i:hover {
     color: hsl(300, 69%, 71%);
     cursor: pointer;
   }
+
+.footer {
+    font-family: Open-Sans;
+    margin: 0 auto;
+    color: white;
+    display: none;
+}
 
 @media screen and (min-width: 280px) and (max-width: 1200px) {
     body {
@@ -95,5 +111,4 @@ button:active {
         padding: 5px 1px;
         margin-left: 5px;
     }
-
 }

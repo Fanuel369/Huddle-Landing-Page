@@ -38,7 +38,6 @@ button:active {
 
 .content {
     margin-left: 6% !important;
-    transform: translate(2%, 0);
 }
 
 .logo {
@@ -61,7 +60,6 @@ button:active {
     border: 1px solid;
     border-radius: 50%;
     transition: color 0.3s;
-    transform: translate(0, -3%);
   }
 
   .socialicons i:hover {

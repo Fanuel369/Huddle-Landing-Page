@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(fonts/opensans/OpenSans-Regular.ttf);
+}
+
+.body {
+    display: flex;
+}
+
+button {
+    font-family: Open-Sans;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.38);
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    width: 38%;
+}
+
+button:active {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.content {
+    margin-left: 6% !important;
+}
+
+.logo {
+    width: 15%;
+}
+
+.socialicons {
+    margin-top: 25%;
+    align-self: flex-end;
+    
+  }
+
+  .socialicons i {
+    color: white;
+    width: 30px;
+    padding: 5px 1px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: color 0.3s;
+  }
+
+  .socialicons i:hover {
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+  }
+
+@media screen and (min-width: 280px) and (max-width: 1200px) {
+    body {
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(images/bg-mobile.svg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button {
+        display: block;
+        font-family: Open-Sans;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.38);
+        background-color: white;
+        color: hsl(257, 40%, 49%);
+        width: 38%;
+        margin-left: 25%;
+    }
+
+    .socialicons {
+        align-self: center;
+        margin-top: 7%;
+        margin-right: 15%;
+    }
+
+    .socialicons i {
+        width: 30px;
+        padding: 5px 1px;
+        margin-left: 5px;
+    }
+
+}
